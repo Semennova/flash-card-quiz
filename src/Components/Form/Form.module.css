@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 0 1.5rem;
+  }
+
+  
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+  }
+  
+  .formGroup > label {
+    color: #777;
+    font-size: .75rem;
+    margin-bottom: .25rem;
+  }
+  
+  .btn{
+    background-color: hsl(200, 100%, 50%);
+    color: #fff;
+    border: none;
+    padding: .5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: hsl(200, 100%, 40%)
+  }
